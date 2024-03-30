@@ -1,0 +1,55 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ranchers&display=swap');
+@import url(https://helpx.adobe.com/es/fonts/using/add-fonts-website.html);
+/* importar fuentes locales */
+@font-face{
+    font-family: "bevan";
+    src: url("fonts/bevan.ttf"),
+}
+body{
+    background: rgb(255, 230, 0);
+    font-family: "roboto", sans-serif;
+}
+
+.logo{
+    margin-top: 0px;
+    height: 13.5%;
+    width:13.5% ;
+    float:left;
+}
+.marca{
+    height: 13.5%;
+    width:auto ;
+    text-align: center;
+    background: rgb(241, 241, 110);
+    color: rgb(73, 73, 51);
+}
+#texto{
+    display: inline-block;
+    vertical-align: top;
+    
+  }
+ 
+  
+
+   .imagen{
+    height: auto;
+    width:25% ;
+    display: inline-block;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    margin-left: 5%;
+    box-sizing: border-box ;
+    justify-content:space-between ;
+ }
+
+ .parrafo{
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-left: -8%;
+    text-align:center;
+    text-overflow: var();
+    font-size: medium;
+    font-weight: bold ;
+ }
