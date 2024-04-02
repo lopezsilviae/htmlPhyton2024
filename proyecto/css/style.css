@@ -23,7 +23,19 @@ body{
     text-align: center;
     background: rgb(241, 241, 110);
     color: rgb(73, 73, 51);
+    animation-name: cambiarFondo;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: normal;
 }
+@keyframes cambiarFondo {
+    0% {background: rgb(241, 241, 71); width: 60%;}
+    /* Primer fotograma */
+    50% {background: rgb(243, 243, 110); width: 80%;}
+    /* Segundo fotograma */
+    100% {background: rgb(241, 241, 129); width: 100%;}
+    /* Último fotograma */
+   }
 #texto{
     display: inline-block;
     vertical-align: top;
@@ -45,11 +57,11 @@ body{
  }
 
  .parrafo{
-    padding-left: 0%;
-    padding-right: 0%;
-    margin-left: -8%;
+    margin-right: 4%;
+    margin-left: -6%;
     text-align:center;
     text-overflow: var();
     font-size: medium;
     font-weight: bold ;
+    p::first-line{background-color: rgb(241, 241, 110);}
  }
